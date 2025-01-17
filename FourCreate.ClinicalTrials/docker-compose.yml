@@ -1,0 +1,6 @@
+services:
+  fourcreate.clinicaltrials.webapi:
+    image: ${DOCKER_REGISTRY-}fourcreateclinicaltrialswebapi
+    build:
+      context: .
+      dockerfile: FourCreate.ClinicalTrials.WebApi/Dockerfile
