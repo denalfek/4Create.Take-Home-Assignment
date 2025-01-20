@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourCreate.ClinicalTrials.W
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CC8370B3-25BE-4F65-B2D1-8BAE43137F6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourCreate.ClinicalTrials.Infrastructure", "FourCreate.ClinicalTrials.Infrastructure\FourCreate.ClinicalTrials.Infrastructure.csproj", "{023C6D71-0C47-426D-B46E-B51862353EC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourCreate.ClinicalTrials.Domain", "FourCreate.ClinicalTrials.Domain\FourCreate.ClinicalTrials.Domain.csproj", "{236ECEB1-681F-41B0-85AC-0523A7DAFDAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{CC8370B3-25BE-4F65-B2D1-8BAE43137F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC8370B3-25BE-4F65-B2D1-8BAE43137F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC8370B3-25BE-4F65-B2D1-8BAE43137F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{023C6D71-0C47-426D-B46E-B51862353EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023C6D71-0C47-426D-B46E-B51862353EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023C6D71-0C47-426D-B46E-B51862353EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023C6D71-0C47-426D-B46E-B51862353EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236ECEB1-681F-41B0-85AC-0523A7DAFDAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236ECEB1-681F-41B0-85AC-0523A7DAFDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236ECEB1-681F-41B0-85AC-0523A7DAFDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236ECEB1-681F-41B0-85AC-0523A7DAFDAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
